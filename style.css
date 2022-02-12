@@ -12,7 +12,6 @@ html {
 }
 
 body{
-  /*margin-top: 10em;*/
   min-height: 100vh;    
   display: grid;      
   place-content: center; 
@@ -22,8 +21,9 @@ body{
   .card {
       background-color: hsl(0, 0%, 100%);
       text-align: center;
-      width: 21em;
-      height: 32em;
+      width: 95%;
+      max-width: 21em;
+      padding: 1rem;
       border-radius: 1.3em;
       margin: auto;
   }   
@@ -33,7 +33,7 @@ body{
 
     img {
     display: block;
-    width: 19em;
+    width: 100%;
     border-radius: .7em;
     margin: auto;
   }
