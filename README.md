@@ -20,8 +20,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 [Here is the solution screenshot](./final-solution-screenshot.png)
 
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://brusli147.github.io/qr-code-component-main/)
 
 
@@ -65,6 +63,6 @@ I would like to learn CSS Grid and CSS Flexbox
 
 
 ## Acknowledgments
-Dave
-Chamunorwa Mutezva
-Grace Snow
+Dave <br>
+Chamunorwa Mutezva <br>
+Grace Snow <br>
