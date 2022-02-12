@@ -1,47 +1,69 @@
-  /* General styles */ 
-  body {
-    margin: 0;
-  }
-  
-  html {
-    font-family: 'Outfit', sans-serif;;
-    font-size: 15px;
-    background-color: hsl(212, 45%, 89%);
-  }
-   
-   /* card general setup */
-    .card {
-        background-color: hsl(0, 0%, 100%);
-        text-align: center;
-        width: 21em;
-        height: 31em;
-        border-radius: .7em;
-        margin: auto;
-    }   
+/* General styles */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    /* card image setup */
+html {
+  font-family: 'Outfit', sans-serif;;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+}
 
-    .image img{
-      display: block;
-      padding-top: 1em;
-      height: 19em;
-      border-radius: .7em;
-      margin: auto;
-    }
-
-    /* article setup */
-
-    .card h3, .card p {
+body{
+  margin-top: 10em;
+}
+ 
+ /* card general setup */
+  .card {
+      background-color: hsl(0, 0%, 100%);
       text-align: center;
-    }
-   
-   
-   .attribution {
-         font-size: .6rem; text-align: center; 
-        }
-   
-   
-   .attribution a { 
-        color: hsl(228, 45%, 44%); 
-      }
+      width: 21em;
+      height: 31em;
+      border-radius: 1.3em;
+      margin: auto;
+  }   
+
+  /* card image setup */
+
+
+    img{
+    display: block;
+    width: 19em;
+    border-radius: .7em;
+    margin: auto;
+  }
+
+  /* article setup */
+
+  .card article{
+    margin-top: 1.5em;
+  }
+
+  .card h3, .card p {
+    text-align: center;
+    line-height: 1.3em;
+    
+  }
+
+  .card h3{
+    font-weight: 700;
+  }
   
+  .card p {
+    padding: 1.5em;
+    color: hsl(220, 15%, 55%);
+    font-weight: 500;
+  }
+
+ .attribution {
+       font-size: .8rem; text-align: center; 
+      }
+ 
+ 
+ .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+
+
