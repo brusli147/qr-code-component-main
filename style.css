@@ -6,13 +6,16 @@
 }
 
 html {
-  font-family: 'Outfit', sans-serif;;
+  font-family: 'Outfit', sans-serif;
   font-size: 15px;
   background-color: hsl(212, 45%, 89%);
 }
 
 body{
-  margin-top: 10em;
+  /*margin-top: 10em;*/
+  min-height: 100vh;    
+  display: grid;      
+  place-content: center; 
 }
  
  /* card general setup */
@@ -20,7 +23,7 @@ body{
       background-color: hsl(0, 0%, 100%);
       text-align: center;
       width: 21em;
-      height: 31em;
+      height: 32em;
       border-radius: 1.3em;
       margin: auto;
   }   
@@ -28,11 +31,16 @@ body{
   /* card image setup */
 
 
-    img{
+    img {
     display: block;
     width: 19em;
     border-radius: .7em;
     margin: auto;
+  }
+
+  .image {
+    padding-top: 1em;
+    border-radius: .7em;
   }
 
   /* article setup */
@@ -52,7 +60,7 @@ body{
   }
   
   .card p {
-    padding: 1.5em;
+    padding: 1em;
     color: hsl(220, 15%, 55%);
     font-weight: 500;
   }
